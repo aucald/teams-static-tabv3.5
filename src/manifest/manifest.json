@@ -1,0 +1,50 @@
+{
+  "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.5/MicrosoftTeams.schema.json",
+  "manifestVersion": "1.5",
+  "id": "321e71ce-8a2f-417c-9927-78f6573fefb8",
+  "version": "1.4.0",
+  "packageName": "teamsstatictab",
+  "developer": {
+    "name": "Vitalyst, LLC.",
+    "websiteUrl": "https://www.vitalyst.com",
+    "privacyUrl": "https://www.vitalyst.com/privacy-policy/",
+    "termsOfUseUrl": "https://www.vitalyst.com/al-m365-general-terms-and-conditions/"
+  },
+  "name": {
+    "short": "Vitalyst Teams App",
+    "full": "Vitalyst Teams App"
+  },
+  "description": {
+    "short": "My Company Events",
+    "full": "My Company Events - events scheduled for your company."
+  },
+  "icons": {
+    "outline": "icon-outline.png",
+    "color": "icon-color.png"
+  },
+  "accentColor": "#D85028",
+  "configurableTabs": [],
+  "staticTabs": [
+    {
+      "entityId": "CSUHOW-100",
+      "name": "Vitalyst",
+      "contentUrl": "https://teamsappuserscope.azurewebsites.net/vitalystTab/",
+      "scopes": [
+        "personal"
+      ]
+    }
+  ],
+  "bots": [],
+  "connectors": [],
+  "composeExtensions": [],
+  "permissions": [
+    "identity",
+    "messageTeamMembers"
+  ],
+  "validDomains": [
+    "ngrok.io",
+    "sharepoint.com",
+    "vitalyst.com",
+    "azurewebsites.net"
+  ]
+}

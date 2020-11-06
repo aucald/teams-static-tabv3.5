@@ -1,0 +1,223 @@
+@import "./node_modules/bootstrap/scss/bootstrap.scss";
+@import "./node_modules/bootstrap/scss/_transitions.scss";
+@import "./node_modules/bootstrap/scss/_grid.scss";
+
+$grid-columns: 12;
+$grid-gutter-width: 75px;
+
+$grid-breakpoints: (
+  // Extra small screen / phone
+  xs: 0,
+  // Small screen / phone
+  sm: 576px,
+  // Medium screen / tablet
+  md: 768px,
+  // Large screen / desktop
+  lg: 992px,
+  // Extra large screen / wide desktop
+  xl: 1200px
+);
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px
+);
+
+.a365 {
+	display: none;
+}
+
+.modal {
+	position: fixed;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+#searchform {
+	direction: rtl;
+	width: 75%;
+}
+
+#searchbox {
+	display: block;
+	direction: ltr;
+	width: 200px;
+	transition: width 2s;
+}
+
+#searchbox:hover {
+	width: 90%;
+}
+
+.btn {
+	background-color: #eb7d37;
+}
+
+.btn-primary {
+	background-color: #eb7d37;
+	border-color: #eb7d37;
+}
+
+.btn-primary:hover {
+	background-color: #eb7d37;
+	border-color: #eb7d37;
+}
+
+.btn-primary:focus {
+	background-color: #eb7d37;
+	border-color: #eb7d37;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show > .btn-primary.dropdown-toggle {
+	color: #fff;
+	background-color: #eb7d37;
+	border-color: #eb7d37;
+}
+
+.btn-primary.focus, .btn-primary:focus {
+	-webkit-box-shadow: 0 0 0 0.2rem rgba(235,125,55,.5);
+	box-shadow: 0 0 0 0.2rem rgb(235,125,55);
+}
+
+body {
+	font-family: sans-serif;
+	max-width: 80vw;
+	margin: 0 auto;
+}
+
+#bottomFooter {
+	height: 180px;
+	vertical-align:top;
+}
+
+.dropdown-menu {
+	z-index: 9999;
+}
+
+.l-header {
+	display: flex;
+
+	box-sizing: border-box;
+	width: 100%;
+	min-height: 5em;
+	padding: 1em;
+
+	align-content: space-between;
+	align-items: stretch;
+	justify-content: space-between;
+
+	h1 {
+		box-sizing: border-box;
+		padding-left: 1.5em;
+		padding-right: 1.5em;
+
+	}
+}
+
+.l-article {
+	margin: 3em 2em;
+}
+
+.l-title {
+	flex-grow: 1;
+}
+
+img.logo {
+	width: 100%;
+	min-width: 76px;
+	height: auto;
+}
+
+.img-thumbnail {
+	position: relative;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: #f0f0f0 !important;
+}
+
+.innerThumb {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	width: 61px;
+	height: 58px;
+}
+
+.card-img-top {
+	width: 25% !important;
+	padding-bottom: 15px !important;
+}
+  
+.card-title {
+	color: #056CB6;
+	font-size: 15px;
+	text-align: left;
+	font-weight: bold;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+  
+.card-subtitle {
+	color: #646464;
+	font-size: 14px;
+	text-align: left;
+	font-weight: bold;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+  
+.card-text {
+	color: #646464;
+	font-size: 14px;
+	text-align: left;
+	font-weight: normal;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+  
+.hidden {
+	display: none;
+	visibility: hidden;
+}
+  
+.teamsWebinarExtension {
+	.container {
+		max-width: 700px;
+		margin: 0px auto;
+		box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 25px 50px 0 rgba(0, 0, 0, 0.1);
+	}
+
+	.row {
+		padding: 20px;
+	}
+
+	.button {
+		// Our button
+		text-decoration: none;
+		height: 32px;
+
+		// Primary Button
+		min-width: 80px;
+
+		// Basic Button
+		outline: transparent;
+		position: relative;
+		font-family: "Segoe UI WestEuropean","Segoe UI",-apple-system,BlinkMacSystemFont,Roboto,"Helvetica Neue",sans-serif;
+		-webkit-font-smoothing: antialiased;
+		border-width: 0;
+		text-align: center;
+		cursor: pointer;
+		display: inline-block;
+		padding: 0 16px;
+
+		.label {
+			height: 32px;
+			line-height: 32px;
+			margin: 0 4px;
+			vertical-align: top;
+			display: inline-block;
+		}
+	}
+}

@@ -1,0 +1,35 @@
+{
+	"data": [{
+		"account": "BIGFIC-200",
+		"config": [{
+			"apiKey":"80d30644-b85f-468e-94a9-0723c1ec58d0",
+			"jsonurl":"https://bodachek.github.io/vitalystTeamsApp/teamsOpenseatMag.json",
+			"intShowRec":50,
+			"strTitle":"Big Fictitious Company Webinars",
+			"strSubtitle":"Webinars for the Big Fictitious Company from Vitalyst",
+			"strJoinText":"Join Webinar"
+		}]
+	},
+	{
+		"account": "BIGFIC-300",
+		"config": [{
+			"apiKey":"80d30644-b85f-468e-94a9-0723c1ec58d0",
+			"jsonurl":"https://bodachek.github.io/vitalystTeamsApp/teamsOpenseatMag.json",
+			"intShowRec":20,
+			"strTitle":"Big Illusory Company Webinars",
+			"strSubtitle":"Webinars for the Big Illusory Company from Vitalyst, our content provider",
+			"strJoinText":"Schedule Webinar"
+		}]
+	},
+	{
+		"account": "BIGFIC-400",
+		"config": [{
+			"apiKey":"80d30644-b85f-468e-94a9-0723c1ec58d0",
+			"jsonurl":"https://bodachek.github.io/vitalystTeamsApp/teamsOpenseatMag.json",
+			"intShowRec":40,
+			"strTitle":"Big Hypothetical Company Webinars",
+			"strSubtitle":"Webinars for the Big Hypothetical Company from Vitalyst",
+			"strJoinText":"Enroll for Webinar"
+		}]
+	}]
+}

@@ -1,0 +1,95 @@
+{
+	"data": [{
+		"account": "BIGFIC-200",
+		"default": "web",
+		"webConfig": [{
+			"enabled": true,
+			"apiKey":"80d30644-b85f-468e-94a9-0723c1ec58d0",
+			"jsonurl":"https://bodachek.github.io/vitalystTeamsApp/teamsOpenseatMag.json",
+			"intShowRec":50,
+			"strTitle":"Big Fictitious Company Webinars",
+			"strSubtitle":"Webinars for the Big Fictitious Company from Vitalyst",
+			"strJoinText":"Join Webinar"
+		}],
+		"vidConfig": [{
+			"enabled": true,
+			"apiKey":"80d30644-b85f-468e-94a9-0723c1ec58d0",
+			"jsonurl":"https://bodachek.github.io/vitalystTeamsApp/teamsVideosGuides.json",
+			"intShowRec":50,
+			"strTitle":"Big Fictitious Company Videos",
+			"strSubtitle":"Training Videos for the Big Fictitious Company from Vitalyst",
+			"strJoinText":"View Video"
+		}],
+		"custConfig": [{
+			"enabled": true,
+			"apiKey":"80d30644-b85f-468e-94a9-0723c1ec58d0",
+			"jsonurl":"https://bodachek.github.io/vitalystTeamsApp/teamsOpenseatMag.json",
+			"intShowRec":50,
+			"strTitle":"Big Fictitious Company Custom Content",
+			"strSubtitle":"Custom Content for the Big Fictitious Company from Vitalyst",
+			"strJoinText":"View Content"
+		}]
+	},
+	{
+		"account": "BIGFIC-300",
+		"default": "vid",
+		"webConfig": [{
+			"enabled": true,
+			"apiKey":"80d30644-b85f-468e-94a9-0723c1ec58d0",
+			"jsonurl":"https://bodachek.github.io/vitalystTeamsApp/teamsOpenseatMag.json",
+			"intShowRec":50,
+			"strTitle":"Big Illusory Company Webinars",
+			"strSubtitle":"Webinars for the Big Illusory Company from Vitalyst",
+			"strJoinText":"Join Webinar"
+		}],
+		"vidConfig": [{
+			"enabled": true,
+			"apiKey":"80d30644-b85f-468e-94a9-0723c1ec58d0",
+			"jsonurl":"https://bodachek.github.io/vitalystTeamsApp/teamsVideosGuides.json",
+			"intShowRec":50,
+			"strTitle":"Big Illusory Company Videos",
+			"strSubtitle":"Training Videos for the Big Illusory Company from Vitalyst",
+			"strJoinText":"View Video"
+		}],
+		"custConfig": [{
+			"enabled": false,
+			"apiKey":"80d30644-b85f-468e-94a9-0723c1ec58d0",
+			"jsonurl":"https://bodachek.github.io/vitalystTeamsApp/teamsOpenseatMag.json",
+			"intShowRec":50,
+			"strTitle":"Big Illusory Company Custom Content",
+			"strSubtitle":"Custom Content for the Big Illusory Company from Vitalyst",
+			"strJoinText":"View Content"
+		}]
+	},
+	{
+		"account": "BIGFIC-400",
+		"default": "cust",
+		"webConfig": [{
+			"enabled": false,
+			"apiKey":"80d30644-b85f-468e-94a9-0723c1ec58d0",
+			"jsonurl":"https://bodachek.github.io/vitalystTeamsApp/teamsOpenseatMag.json",
+			"intShowRec":50,
+			"strTitle":"Big Hypothetical Company Webinars",
+			"strSubtitle":"Webinars for the Big Hypothetical Company from Vitalyst",
+			"strJoinText":"Join Webinar"
+		}],
+		"vidConfig": [{
+			"enabled": false,
+			"apiKey":"80d30644-b85f-468e-94a9-0723c1ec58d0",
+			"jsonurl":"https://bodachek.github.io/vitalystTeamsApp/teamsVideosGuides.json",
+			"intShowRec":50,
+			"strTitle":"Big Hypothetical Company Videos",
+			"strSubtitle":"Training Videos for the Big Hypothetical Company from Vitalyst",
+			"strJoinText":"View Video"
+		}],
+		"custConfig": [{
+			"enabled": true,
+			"apiKey":"80d30644-b85f-468e-94a9-0723c1ec58d0",
+			"jsonurl":"https://bodachek.github.io/vitalystTeamsApp/teamsOpenseatMag.json",
+			"intShowRec":50,
+			"strTitle":"Big Hypothetical Company Custom Content",
+			"strSubtitle":"Custom Content for the Big Hypothetical Company from Vitalyst",
+			"strJoinText":"View Content"
+		}]
+	}]
+}

@@ -1,0 +1,24 @@
+{
+	"data": [{
+		"account": "test",
+		"config": [{
+			"apiKey":"80d30644-b85f-468e-94a9-0723c1ec58d0",
+			"jsonurl":"https://bodachek.github.io/vitalystTeamsApp/teamsOpenseatMag.json",
+			"intShowRec":50,
+			"strTitle":"Test Title",
+			"strSubtitle":"Test Subtitle",
+			"strJoinText":"Join Webinar"
+		}]
+	},
+	{
+		"account": "test2",
+		"config": [{
+			"apiKey":"80d30644-b85f-468e-94a9-0723c1ec58d0",
+			"jsonurl":"https://bodachek.github.io/vitalystTeamsApp/teamsOpenseatMag.json",
+			"intShowRec":20,
+			"strTitle":"Test2 Title",
+			"strSubtitle":"Test2 Subtitle",
+			"strJoinText":"Join Webinar"
+		}]
+	}]
+}
