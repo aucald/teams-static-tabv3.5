@@ -519,7 +519,7 @@ export class VitalystTab extends TeamsBaseComponent<IVitalystTabProps, IVitalyst
         strA365image = "https://a365.vitalyst.com/images/A365%20Logo.png";
         strEntityId = this.state.entityId;
         if (strEntityId === "This is not hosted in Microsoft Teams") {
-            strEntityId = "CSUILL-100";
+            strEntityId = "BIGFIC-200";
         }
         defaultTab = "";
         jsonurlCfg = "https://bodachek.github.io/vitalystTeamsApp/config.json";
